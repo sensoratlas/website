@@ -111,7 +111,14 @@
 
       <!-- Section Promo -->
       <section id="home">
-          <div class="u-bg-overlay g-color-white g-bg-black-opacity-0_5--after g-bg-img-hero" style="background-image: url(assets/img-temp/1920x1280/img2.jpg);">
+          <div class="u-bg-overlay overlay g-color-white g-bg-black-opacity-0_5--after">
+            <video poster="assets/img/osakaman.jpg" class="u-bg-overlay overlay g-color-white g-bg-black-opacity-0_5--after weather_video" id="bgvid" playsinline autoplay muted loop>
+                <!-- 
+              - Video needs to be muted, since Chrome 66+ will not autoplay video with sound.
+              WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
+
+              <source src="assets/img/Tiapapata_mist540.mp4" type="video/mp4">
+            </video>
             <div class="u-bg-overlay__inner g-flex-centered g-height-100vh g-min-height-600 g-py-40">
               <div id="main-content" class="container">
                 <h2 class="h2 g-line-height-1_2 g-letter-spacing-1 g-font-size-40 g-font-size-65--md g-color-white g-mb-40"><strong class="g-font-weight-700er">An Open Data Initiative</strong></h2>
