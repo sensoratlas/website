@@ -12,12 +12,17 @@
 /* Header */
 
 .u-header {
-  background-color: #6c757d;
+  background-color: black;
 }
 
 
 .infoblurbtext {
   padding: 20px;
+}
+
+/* Header Navigation Links */
+.dark-theme li.active .nav-link {
+  color: #750b86;
 }
 
 /* Section Two Community */
