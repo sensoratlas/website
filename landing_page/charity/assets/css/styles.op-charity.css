@@ -34526,15 +34526,15 @@ pre[class*="language-"] .toolbar-item a {
 
 /* Primary Colors */
 .g-color-primary {
-  color: #f5f219 !important;
+  color: #fff !important;
 }
 
 .u-block-hover:hover .g-color-primary--hover, .g-color-primary--hover:hover {
-  color: #f5f219 !important;
+  color: #6639b6 !important;
 }
 
 .g-parent:hover .g-color-primary--parent-hover {
-  color: #f5f219 !important;
+  color: #6639b6 !important;
 }
 
 .g-color-primary-opacity-0_3 {
@@ -34546,15 +34546,15 @@ pre[class*="language-"] .toolbar-item a {
 }
 
 .g-color-primary--active.active {
-  color: #f5f219 !important;
+  color: #6639b6 !important;
 }
 
 .active .g-color-primary--parent-active {
-  color: #f5f219 !important;
+  color: #6639b6 !important;
 }
 
 .g-color-primary--before::before, .g-color-primary--after::after {
-  color: #f5f219;
+  color: #6639b6;
 }
 
 /* Secondary Colors */
@@ -48721,23 +48721,23 @@ a:hover, a:active, a:focus {
 }
 
 .light-theme:hover {
-  color: #f5f219;
+  color: #6639b6;
 }
 
 .light-theme li.active .nav-link {
-  color: #f5f219;
+  color: #6639b6;
 }
 
 .dark-theme .nav-link {
-  color: #777;
+  color: black;
 }
 
 .dark-theme:hover {
-  color: #f5f219;
+  color: #6639b6;
 }
 
 .dark-theme li.active .nav-link {
-  color: #f5f219;
+  color: #6639b6;
 }
 
 /* Background */

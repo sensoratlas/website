@@ -1,4 +1,5 @@
 /* Add here all your css styles (customizations) */
+
 #main-content {
   margin-top: 12rem;
   margin-left:10rem;
@@ -12,13 +13,35 @@
 /* Header */
 
 .u-header {
-  background-color: #6c757d;
+  background-color: black;
 }
 
 
 .infoblurbtext {
   padding: 20px;
 }
+
+/* Header Navigation Links */
+/*.dark-theme li.active .nav-link {
+  color: #6639b6;
+}*/
+
+.nav-link:hover {
+  color: #5b33a3;
+}
+
+/*------------------------------------
+  Highlight Color
+------------------------------------*/
+::-moz-selection {
+  color: #fff;
+  background-color: #6639b6;
+}
+::selection {
+  color: #fff;
+  background-color: #6639b6;
+}
+
 
 /* Section Two Community */
 
@@ -36,6 +59,12 @@
   color: black;
   font-size: 1.5rem;
   padding-bottom:10px;
+}
+
+/* Banner colors */
+
+.banner-background {
+  background-color: #6639b6;
 }
 
 /* video */
@@ -61,6 +90,14 @@
 
 #howitworks p {
   font-size: 1.3rem;
+}
+
+/*------------------------------------
+  Go To
+------------------------------------*/
+.u-go-to-v1:hover,
+.u-go-to-v1:focus:hover {
+  background-color: #6639b6;
 }
 
 @media screen and (max-device-width: 800px) {
