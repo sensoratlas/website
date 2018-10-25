@@ -2,12 +2,11 @@
 
 #main-content {
   margin-top: 12rem;
-  margin-left:10rem;
-  margin-right:20rem;
+  margin-right: 20rem;
 }
 
 .backgroundarea {
-  background-color: #6c757d;
+  background-color: #fff;
 }
 
 /* Header */
@@ -19,6 +18,7 @@
 
 .infoblurbtext {
   padding: 20px;
+  text-align: center;
 }
 
 /* Header Navigation Links */
@@ -27,7 +27,7 @@
 }*/
 
 .nav-link:hover {
-  color: #5b33a3;
+  color: #9a69cb;
 }
 
 /*------------------------------------
@@ -35,11 +35,11 @@
 ------------------------------------*/
 ::-moz-selection {
   color: #fff;
-  background-color: #6639b6;
+  background-color: #9a69cb;
 }
 ::selection {
   color: #fff;
-  background-color: #6639b6;
+  background-color: #9a69cb;
 }
 
 
@@ -64,7 +64,8 @@
 /* Banner colors */
 
 .banner-background {
-  background-color: #6639b6;
+  background-color: #9a69cb;
+  color: #fff;
 }
 
 /* video */
@@ -100,9 +101,12 @@
   background-color: #6639b6;
 }
 
-@media screen and (max-device-width: 800px) {
-  html { background: url('assets/img/osakaman.jpg') #000 no-repeat center center fixed; }
-  #bgvid { display: none; }
+@media only screen and (max-width: 800px) {
+  #main-content {
+    margin-top: 12rem;
+    margin-right: 0rem;
+  }
+
 }
 
 @media only screen and (min-width: 992px) {

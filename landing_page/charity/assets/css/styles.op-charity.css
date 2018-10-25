@@ -28581,7 +28581,7 @@ pre[class*="language-"] .toolbar-item a {
 
 /* Primary Colors */
 .g-bg-primary {
-  background-color: #f5f219 !important;
+  background-color: #6639b6 !important;
 }
 
 .g-bg-primary--hover:hover {
@@ -28589,11 +28589,11 @@ pre[class*="language-"] .toolbar-item a {
 }
 
 .u-block-hover:hover .g-bg-primary--hover {
-  background-color: #f5f219;
+  background-color: #6639b6;
 }
 
 .g-parent:hover .g-bg-primary--parent-hover {
-  background-color: #f5f219 !important;
+  background-color: #6639b6 !important;
 }
 
 .g-bg-primary--active.active,
@@ -29220,7 +29220,7 @@ pre[class*="language-"] .toolbar-item a {
 
 /* Color Dark Purple */
 .g-bg-darkpurple {
-  background-color: #6639b6 !important;
+  background-color: #9a69cb !important;
 }
 
 .g-bg-darkpurple-opacity-0_1 {
@@ -34526,15 +34526,15 @@ pre[class*="language-"] .toolbar-item a {
 
 /* Primary Colors */
 .g-color-primary {
-  color: #fff !important;
+  color: #9a69cb !important;
 }
 
 .u-block-hover:hover .g-color-primary--hover, .g-color-primary--hover:hover {
-  color: #6639b6 !important;
+  color: #9a69cb !important;
 }
 
 .g-parent:hover .g-color-primary--parent-hover {
-  color: #6639b6 !important;
+  color: #9a69cb !important;
 }
 
 .g-color-primary-opacity-0_3 {
@@ -34546,15 +34546,15 @@ pre[class*="language-"] .toolbar-item a {
 }
 
 .g-color-primary--active.active {
-  color: #6639b6 !important;
+  color: #9a69cb !important;
 }
 
 .active .g-color-primary--parent-active {
-  color: #6639b6 !important;
+  color: #9a69cb !important;
 }
 
 .g-color-primary--before::before, .g-color-primary--after::after {
-  color: #6639b6;
+  color: #9a69cb;
 }
 
 /* Secondary Colors */
@@ -48721,11 +48721,11 @@ a:hover, a:active, a:focus {
 }
 
 .light-theme:hover {
-  color: #6639b6;
+  color: #9a69cb;
 }
 
 .light-theme li.active .nav-link {
-  color: #6639b6;
+  color: #9a69cb;
 }
 
 .dark-theme .nav-link {
@@ -48733,11 +48733,11 @@ a:hover, a:active, a:focus {
 }
 
 .dark-theme:hover {
-  color: #6639b6;
+  color: #9a69cb;
 }
 
 .dark-theme li.active .nav-link {
-  color: #6639b6;
+  color: #9a69cb;
 }
 
 /* Background */
