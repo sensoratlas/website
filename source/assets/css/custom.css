@@ -9,6 +9,10 @@
   background-color: #fff;
 }
 
+.beanbkg {
+  background-image: url("../img/gray-background.png");
+}
+
 /* Header */
 
 .u-header {
@@ -20,11 +24,6 @@
   padding: 20px;
   text-align: center;
 }
-
-/* Header Navigation Links */
-/*.dark-theme li.active .nav-link {
-  color: #6639b6;
-}*/
 
 .nav-link:hover {
   color: #9a69cb;
