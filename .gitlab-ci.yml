@@ -4,9 +4,9 @@ image: ruby:2.3
 
 variables:
   AWS_S3_STAGING: "grp-hosted/sensoratlas/staging"
-  AWS_S3_PRODUCTION: "grp-hosted/sensoratlas/staging"
-  #AWS_CF_STAGING: "E2ASEEINSSV0SJ"
-  #AWS_CF_PRODUCTION: "E3VODPX8VWP2B"
+  AWS_S3_PRODUCTION: "grp-hosted/sensoratlas/production"
+  AWS_CF_STAGING: "E107YMMML3LC9F"
+  AWS_CF_PRODUCTION: "E1OKGBK08CT9HP"
 
 stages:
   - build
@@ -35,8 +35,8 @@ staging:
   - apt-get update -yqqq
   - pip install awscli
   - aws s3 sync --sse --delete public s3://$AWS_S3_STAGING/ --acl public-read
-  #- aws configure set preview.cloudfront true
-  #- aws cloudfront create-invalidation --distribution-id $CF_DISTID_STAGING --paths '/*'
+  - aws configure set preview.cloudfront true
+  - aws cloudfront create-invalidation --distribution-id $AWS_CF_STAGING --paths '/*'
   environment:
     name: staging
   only:
@@ -49,8 +49,8 @@ production:
   - apt-get update -yqqq
   - pip install awscli
   - aws s3 sync --sse --delete public s3://$AWS_S3_PRODUCTION/ --acl public-read
-  #- aws configure set preview.cloudfront true
-  #- aws cloudfront create-invalidation --distribution-id $CF_DISTID_PRODUCTION --paths '/*'
+  - aws configure set preview.cloudfront true
+  - aws cloudfront create-invalidation --distribution-id $AWS_CF_PRODUCTION --paths '/*'
   environment:
     name: production
   only:
