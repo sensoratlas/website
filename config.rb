@@ -1,13 +1,6 @@
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
 
-# Sprockets
-activate :sprockets
-
-after_configuration do
-    sprockets.append_path File.join( root, "bower_components/" )
-end
-
 activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
 end
