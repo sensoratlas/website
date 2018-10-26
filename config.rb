@@ -8,6 +8,14 @@ end
 # Layouts
 # https://middlemanapp.com/basics/layouts/
 
+# General configuration
+# config[:url_root] = '//maat-digital.sites.grp.one'
+config[:js_dir] = 'assets/js'
+config[:css_dir] = 'assets/css'
+# config[:fonts_dir] = 'assets/fonts'
+config[:images_dir] = 'assets/img'
+config[:layouts_dir] = 'layouts'
+
 # Per-page layout changes
 page '/*.xml', layout: false
 page '/*.json', layout: false
@@ -40,7 +48,18 @@ page '/*.txt', layout: false
 # Build-specific configuration
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings
 
-# configure :build do
-#   activate :minify_css
-#   activate :minify_javascript
-# end
+configure :build do
+  activate :relative_assets
+  set :relative_links, true
+
+  activate :minify_css
+  activate :minify_javascript
+  activate :gzip
+
+  # Append a hash to asset urls (make sure to use the url helpers)
+  activate :asset_hash
+  # activate :asset_host, :host => config[:url_root]
+end
+
+# MUST be after :18n and :blog activation
+activate :directory_indexes
