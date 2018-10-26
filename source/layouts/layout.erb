@@ -9,32 +9,7 @@
     <!-- Use the title from a page's frontmatter if it has one -->
     <title><%= current_page.data.title || "Sensor Atlas Project" %></title>
 
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="favicon.ico">
-
-    <!-- Google Fonts -->
-    <!-- <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400,300,500,600,700,800"> -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-
-    <!-- CSS Global Compulsory -->
-    <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
-
-    <!-- CSS Implementing Plugins -->
-    <link rel="stylesheet" href="assets/icon-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/icon-line-pro/style.css">
-    <link rel="stylesheet" href="assets/icon-line/css/simple-line-icons.css">
-    <link rel="stylesheet" href="assets/icon-hs/style.css">
-    <link rel="stylesheet" href="assets/hamburgers/hamburgers.min.css">
-    <link rel="stylesheet" href="assets/animate.css">
-    <link rel="stylesheet" href="assets/slick-carousel/slick/slick.css">
-
-    <!-- CSS Template -->
-    <link rel="stylesheet" href="assets/css/styles.op-charity.css">
-
-    <!-- CSS Customization -->
-    <link rel="stylesheet" href="assets/css/custom.css">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css">
-
+    <%= favicon_tag "favicon.png", :type => "image/png" %>
     <%= stylesheet_link_tag "site" %>
   </head>
   <body>
