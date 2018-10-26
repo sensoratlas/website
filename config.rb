@@ -45,6 +45,11 @@ page '/*.txt', layout: false
 #   end
 # end
 
+# Reload the browser automatically whenever files change
+configure :development do
+  activate :livereload
+end
+
 # Build-specific configuration
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings
 
