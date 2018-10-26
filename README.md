@@ -57,8 +57,8 @@ For development, change into the project directory and run:
 bundle exec middleman server
 ```
 
-Then check the website in your browser: http://localhost:4567 It will refresh
-the website automatically, when changes are made and saved.
+Then check the website in your browser: [http://localhost:4567](http://localhost:4567)
+It will refresh the website automatically, when changes are made and saved.
 
 To build the static files run:
 
