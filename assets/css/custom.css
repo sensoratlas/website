@@ -1,0 +1,126 @@
+/* Add here all your css styles (customizations) */
+
+#main-content {
+  margin-top: 12rem;
+  margin-right: 20rem;
+}
+
+.backgroundarea {
+  background-color: #fff;
+}
+
+/* Header */
+
+.u-header {
+  background-color: black;
+}
+
+
+.infoblurbtext {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Header Navigation Links */
+/*.dark-theme li.active .nav-link {
+  color: #6639b6;
+}*/
+
+.nav-link:hover {
+  color: #9a69cb;
+}
+
+/*------------------------------------
+  Highlight Color
+------------------------------------*/
+::-moz-selection {
+  color: #fff;
+  background-color: #9a69cb;
+}
+::selection {
+  color: #fff;
+  background-color: #9a69cb;
+}
+
+
+/* Section Two Community */
+
+.community {
+  background-color: white;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.community h2 {
+  text-align: center;
+}
+
+.textarea p {
+  color: black;
+  font-size: 1.5rem;
+  padding-bottom:10px;
+}
+
+/* Banner colors */
+
+.banner-background {
+  background-color: #9a69cb;
+  color: #fff;
+}
+
+/* video */
+.weather_video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background: url('assets/img/osakaman.jpg') no-repeat;
+    background-size: cover;
+    transition: 1s opacity;
+}
+.stopfade { 
+   opacity: .5;
+}
+
+/* How it works */
+
+#howitworks p {
+  font-size: 1.3rem;
+}
+
+/*------------------------------------
+  Go To
+------------------------------------*/
+.u-go-to-v1:hover,
+.u-go-to-v1:focus:hover {
+  background-color: #6639b6;
+}
+
+@media only screen and (max-width: 800px) {
+  #main-content {
+    margin-top: 12rem;
+    margin-right: 0rem;
+  }
+
+}
+
+@media only screen and (min-width: 992px) {
+  /*Info blurb text */
+  .infoblurbtext h5 {
+    font-size: 1.5rem
+  }
+  /* Images text */
+  .textarea {
+    padding-top: 4rem;
+  }
+
+  .textarea p {
+    font-size: 2rem;
+  }
+
+}
