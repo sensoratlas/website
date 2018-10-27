@@ -13,6 +13,11 @@
   background-image: url("../img/gray-background.png");
 }
 
+.imacbkg {
+  background-image: url("../img/iu.png");
+  background-repeat: no-repeat;
+}
+
 /* Header */
 
 .u-header {
@@ -87,6 +92,10 @@
 }
 
 /* How it works */
+
+#howitworks {
+  background: gray;
+}
 
 #howitworks p {
   font-size: 1.3rem;
