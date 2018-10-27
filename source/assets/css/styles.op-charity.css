@@ -33444,9 +33444,11 @@ pre[class*="language-"] .toolbar-item a {
   }
 }
 
+/*Modified for How It works section Sensor Atlas. Removed !important.
+  Seriously, why do they use such bad practices?*/
 .g-absolute-centered--y {
   position: absolute !important;
-  top: 50% !important;
+  bottom: 1em;
   -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
@@ -33456,7 +33458,7 @@ pre[class*="language-"] .toolbar-item a {
 @media (min-width: 768px) {
   .g-absolute-centered--y--md {
     position: absolute !important;
-    top: 50% !important;
+    top: 50%;
     -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
             transform: translateY(-50%);
@@ -33467,7 +33469,7 @@ pre[class*="language-"] .toolbar-item a {
 @media (min-width: 992px) {
   .g-absolute-centered--y--lg {
     position: absolute !important;
-    top: 50% !important;
+    top: 50%;
     -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
             transform: translateY(-50%);

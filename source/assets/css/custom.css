@@ -13,10 +13,27 @@
   background-image: url("../img/gray-background.png");
 }
 
+/* How it works section */
+
 .imacbkg {
   background-image: url("../img/iu.png");
   background-repeat: no-repeat;
+  background-position: center;
 }
+
+.imacbkg img {
+  max-height: 300px;
+}
+
+.imacbkg > .row {
+  min-height:410px;
+}
+
+.imacbkg > .row > div {
+  top: 1em;
+  left: 17em;
+}
+
 
 /* Header */
 
