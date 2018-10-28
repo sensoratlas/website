@@ -24,8 +24,8 @@
 
     display: block;
     overflow: hidden;
-
-    margin: 0;
+/*custom margin for Sensor Atlas How To section */
+    margin: 1em;
     padding: 0;
 }
 .slick-list:focus
