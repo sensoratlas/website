@@ -10,7 +10,7 @@
 }
 
 .beanbkg {
-  background-image: url("../img/gray-background.png");
+  background-image: url("../img/gray-background.svg");
 }
 
 /* How it works section */
@@ -34,6 +34,11 @@
   left: 17em;
 }
 
+/* Subscribe */
+
+.purple-beanbkg {
+  background-image: url("../img/purple-wallpaper.svg");
+}
 
 /* Header */
 
