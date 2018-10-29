@@ -10,7 +10,7 @@
 }
 
 .beanbkg {
-  background-image: url("../img/gray-background.svg");
+  background-image: url("../img/wallpaper-grey.svg");
 }
 
 /* How it works section */
@@ -21,23 +21,18 @@
   background-position: center;
 }
 
-.imacbkg img {
+/*.imacbkg img {
   max-height: 300px;
-}
+}*/
 
 .imacbkg > .row {
   min-height:410px;
 }
 
-.imacbkg > .row > div {
-  top: 1em;
-  left: 17em;
-}
-
 /* Subscribe */
 
 .purple-beanbkg {
-  background-image: url("../img/purple-wallpaper.svg");
+  background-image: url("../img/wallpaper-purple.svg");
 }
 
 /* Header */
@@ -131,6 +126,33 @@
   background-color: #6639b6;
 }
 
+@media only screen and (min-width: 520px) {
+  .js-next {
+    right:1em;
+    bottom: 1.8em;
+  }
+
+  .js-prev {
+    left: 1em;
+    bottom:1.8em;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  .slick-list {
+    width: 400px;
+  }
+
+  .js-next {
+    right: -4.3em;
+  }
+
+  .imacbkg > .row > div {
+    top: 1em;
+    left: 9.3em;
+  }
+}
+
 @media only screen and (max-width: 800px) {
   #main-content {
     margin-top: 12rem;
@@ -138,6 +160,12 @@
   }
 
 }
+/*.imacbkg > .row > div {
+  top: 1em;
+  left: 17em;
+}
+*/
+
 
 @media only screen and (min-width: 992px) {
   /*Info blurb text */
@@ -153,4 +181,27 @@
     font-size: 2rem;
   }
 
+  .imacbkg > .row > div {
+    left:18em;
+  }
+
+  .js-next {
+    right: 1em;
+  }
+
+  .js-prev {
+    left: 0em;
+  }
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+  .imacbkg > .row > div {
+    left:24.4em;
+  }
+
+  .js-next {
+    right: 6.2em;
+  }
 }
