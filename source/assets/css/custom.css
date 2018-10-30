@@ -21,9 +21,6 @@
   background-position: center;
 }
 
-/*.imacbkg img {
-  max-height: 300px;
-}*/
 
 .imacbkg > .row {
   min-height:410px;
@@ -35,6 +32,15 @@
   background-image: url("../img/wallpaper-purple.svg");
 }
 
+.input-group > form {
+  display: grid;
+  width: 100%;
+  max-width:350px;
+}
+
+input[type=submit] {
+  max-width:150px;
+}
 /* Header */
 
 .u-header {

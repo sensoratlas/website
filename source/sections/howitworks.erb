@@ -60,17 +60,22 @@
 <section id="contact" class="g-color-white g-bg-primary g-pa-40 purple-beanbkg">
   <div class="container">
     <div class="row">
-      <div class="col-md-8 align-self-center">
+      <div class="col-md-6 align-self-center">
         <h2 class="h3 text-uppercase g-font-weight-300 g-mb-20 g-mb-0--md">Subscribe to our
           <strong>newsletter</strong></h2>
       </div>
-
-      <div class="col-md-4 align-self-center">
+      <div class="col-md-6 align-self-center">
         <div class="input-group g-brd-white--focus">
-          <input class="form-control form-control-lg g-font-size-default g-placeholder-white g-color-white g-bg-transparent g-bg-transparent--focus g-brd-white rounded-0" name="email" type="email" placeholder="Enter your email...">
-          <div class="input-group-append">
-            <span class="input-group-text g-color-white g-bg-transparent g-brd-white rounded-0"><i class="fa fa-envelope"></i></span>
-          </div>
+          <form action="https://news.georepublic.info/subscribe" method="POST" accept-charset="utf-8">
+            <label for="name">Name</label>
+            <input type="text" placeholder="Enter your name..." name="name" id="name"/>
+            <br/>
+            <label for="email">Email</label>
+            <input type="email" placeholder="Enter your email..." name="email" id="email"/>
+            <br/>
+            <input type="hidden" name="list" value="Vgplgu1VV0rc98923Qg3PAbg"/>
+            <input type="submit" class="btn btn-md u-btn-outline-darkgray g-rounded-50 g-mr-10 g-mb-15" name="Subscribe" id="submit"/>
+          </form>
         </div>
       </div>
     </div>
