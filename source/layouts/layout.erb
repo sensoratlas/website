@@ -16,6 +16,7 @@
     <!-- <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400,300,500,600,700,800"> -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
+
     <!-- CSS Global Compulsory -->
     <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
 
@@ -36,6 +37,15 @@
     <link rel="stylesheet" href="assets/css/custom.css">
 
     <%= stylesheet_link_tag "site" %>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-128372034-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-128372034-1');
+    </script>
   </head>
   <body>
     <main>
