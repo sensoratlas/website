@@ -187,10 +187,29 @@ input[type=submit] {
     font-size: 2rem;
   }
 
-  .imacbkg > .row > div {
-    left:18em;
+  /* carousel area */
+
+  .slick-list {
+    width: 520px;
   }
 
+  .imacbkg > .row > div {
+    left:12em;
+    top:5em;
+  }
+
+  .imacbkg {
+    background-size: 45em;
+  }
+
+  .imacbkg > .row {
+    height:45em;
+  }
+
+  .imacbkg img {
+    height:23em;
+    width: 40em;
+  }
   .js-next {
     right: 1em;
   }
