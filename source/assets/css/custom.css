@@ -124,6 +124,12 @@ input[type=submit] {
   font-size: 1.3rem;
 }
 
+/*carousel base*/
+
+.js-next, .js-prev {
+  bottom: -1em;
+}
+
 /*------------------------------------
   Go To
 ------------------------------------*/
@@ -135,27 +141,56 @@ input[type=submit] {
 @media only screen and (min-width: 520px) {
   .js-next {
     right:1em;
-    bottom: 1.8em;
+    bottom: .5em;
   }
 
   .js-prev {
     left: 1em;
-    bottom:1.8em;
+    bottom:.5em;
+  }
+
+  .imacbkg img {
+    height:280px;
+  }
+}
+
+@media only screen and (min-width: 535px) and (max-width: 766px) {
+  .imacbkg > .row > div {
+    left: 1em;
+  }
+
+  .slick-list {
+    width:460px;
+  }
+
+  .js-next {
+    right: 2.65em;
+  }
+}
+
+@media only screen and (min-width: 576px ){
+  .imacbkg > .row > div {
+    left: 1.1em;
+  }
+
+  .js-next {
+    right:2.5em;
+    bottom: .5em;
   }
 }
 
 @media only screen and (min-width: 767px) {
   .slick-list {
-    width: 400px;
+    width: 450px;
   }
 
   .js-next {
-    right: -4.3em;
+    right: -7.3em;
   }
 
   .imacbkg > .row > div {
-    top: 1em;
-    left: 9.3em;
+    top: 0em;
+    left: 7.5em;
   }
 }
 
@@ -187,16 +222,41 @@ input[type=submit] {
     font-size: 2rem;
   }
 
+  /* carousel area */
+
+  .slick-list {
+    width: 570px;
+  }
+
+  .slick-slide {
+    width:570px;
+  }
+
   .imacbkg > .row > div {
-    left:18em;
+    left:12em;
+    top:5em;
+  }
+
+  .imacbkg {
+    background-size: 45em;
+  }
+
+  .imacbkg > .row {
+    height:45em;
+  }
+
+  .imacbkg img {
+    height:320px;
   }
 
   .js-next {
-    right: 1em;
+    right: -7em;
+    bottom: 0em;
   }
 
   .js-prev {
-    left: 0em;
+    left: 1em;
+    bottom: 0em;
   }
 
 }
@@ -204,10 +264,11 @@ input[type=submit] {
 @media only screen and (min-width: 1200px) {
 
   .imacbkg > .row > div {
-    left:24.4em;
+    left:18.3em;
   }
 
   .js-next {
-    right: 6.2em;
+    right: -2.2em;
   }
+
 }
