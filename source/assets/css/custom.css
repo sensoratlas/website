@@ -190,7 +190,11 @@ input[type=submit] {
   /* carousel area */
 
   .slick-list {
-    width: 520px;
+    width: 570px;
+  }
+
+  .slick-slide {
+    width:570px;
   }
 
   .imacbkg > .row > div {
@@ -207,15 +211,17 @@ input[type=submit] {
   }
 
   .imacbkg img {
-    height:23em;
-    width: 40em;
+    height:320px;
   }
+
   .js-next {
-    right: 1em;
+    right: -7em;
+    bottom: 0em;
   }
 
   .js-prev {
-    left: 0em;
+    left: 1em;
+    bottom: 0em;
   }
 
 }
@@ -223,10 +229,11 @@ input[type=submit] {
 @media only screen and (min-width: 1200px) {
 
   .imacbkg > .row > div {
-    left:24.4em;
+    left:18.3em;
   }
 
   .js-next {
-    right: 6.2em;
+    right: -2.2em;
   }
+
 }
