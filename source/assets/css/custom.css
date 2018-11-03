@@ -1,0 +1,276 @@
+/* Add here all your css styles (customizations) */
+
+#main-content {
+  margin-top: 12rem;
+  margin-right: 20rem;
+}
+
+.backgroundarea {
+  background-color: #fff;
+}
+
+.beanbkg {
+  background-image: url("../img/wallpaper-grey.svg");
+}
+
+/* How it works section */
+
+.imacbkg {
+  background-image: url("../img/iu.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.imacbkg > .row {
+  min-height:410px;
+}
+
+/* Subscribe */
+
+.purple-beanbkg {
+  background-image: url("../img/wallpaper-purple.svg");
+}
+
+.input-group > form {
+  display: grid;
+  width: 100%;
+  max-width:350px;
+}
+
+input[type=submit] {
+  max-width:150px;
+}
+/* Header */
+
+.u-header {
+  background-color: black;
+}
+
+.navbar-brand {
+  margin: .5em;
+}
+
+.infoblurbtext {
+  padding: 20px;
+  text-align: center;
+}
+
+.nav-link:hover {
+  color: #9a69cb;
+}
+
+/*------------------------------------
+  Highlight Color
+------------------------------------*/
+::-moz-selection {
+  color: #fff;
+  background-color: #9a69cb;
+}
+::selection {
+  color: #fff;
+  background-color: #9a69cb;
+}
+
+
+/* Section Two Community */
+
+.community {
+  background-color: white;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.community h2 {
+  text-align: center;
+}
+
+.textarea p {
+  color: black;
+  font-size: 1.5rem;
+  padding-bottom:10px;
+}
+
+/* Banner colors */
+
+.banner-background {
+  background-color: #9a69cb;
+  color: #fff;
+}
+
+/* video */
+.weather_video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    transition: 1s opacity;
+}
+
+.stopfade { 
+   opacity: .5;
+}
+
+/* How it works */
+
+#howitworks {
+  background: gray;
+}
+
+#howitworks p {
+  font-size: 1.3rem;
+}
+
+/*carousel base*/
+
+.js-next, .js-prev {
+  bottom: -1em;
+}
+
+/*------------------------------------
+  Go To
+------------------------------------*/
+.u-go-to-v1:hover,
+.u-go-to-v1:focus:hover {
+  background-color: #6639b6;
+}
+
+@media only screen and (min-width: 520px) {
+  .js-next {
+    right:1em;
+    bottom: .5em;
+  }
+
+  .js-prev {
+    left: 1em;
+    bottom:.5em;
+  }
+
+  .imacbkg img {
+    height:280px;
+  }
+}
+
+@media only screen and (min-width: 535px) and (max-width: 766px) {
+  .imacbkg > .row > div {
+    left: 1em;
+  }
+
+  .slick-list {
+    width:460px;
+  }
+
+  .js-next {
+    right: 2.65em;
+  }
+}
+
+@media only screen and (min-width: 576px ){
+  .imacbkg > .row > div {
+    left: 1.1em;
+  }
+
+  .js-next {
+    right:2.5em;
+    bottom: .5em;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  .slick-list {
+    width: 450px;
+  }
+
+  .js-next {
+    right: -7.3em;
+  }
+
+  .imacbkg > .row > div {
+    top: 0em;
+    left: 7.5em;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #main-content {
+    margin-top: 12rem;
+    margin-right: 0rem;
+  }
+
+}
+/*.imacbkg > .row > div {
+  top: 1em;
+  left: 17em;
+}
+*/
+
+
+@media only screen and (min-width: 992px) {
+  /*Info blurb text */
+  .infoblurbtext h5 {
+    font-size: 1.5rem
+  }
+  /* Images text */
+  .textarea {
+    padding-top: 4rem;
+  }
+
+  .textarea p {
+    font-size: 2rem;
+  }
+
+  /* carousel area */
+
+  .slick-list {
+    width: 570px;
+  }
+
+  .slick-slide {
+    width:570px;
+  }
+
+  .imacbkg > .row > div {
+    left:12em;
+    top:5em;
+  }
+
+  .imacbkg {
+    background-size: 45em;
+  }
+
+  .imacbkg > .row {
+    height:45em;
+  }
+
+  .imacbkg img {
+    height:320px;
+  }
+
+  .js-next {
+    right: -7em;
+    bottom: 0em;
+  }
+
+  .js-prev {
+    left: 1em;
+    bottom: 0em;
+  }
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+  .imacbkg > .row > div {
+    left:18.3em;
+  }
+
+  .js-next {
+    right: -2.2em;
+  }
+
+}
