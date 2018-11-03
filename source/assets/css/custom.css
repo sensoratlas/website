@@ -47,6 +47,9 @@ input[type=submit] {
   background-color: black;
 }
 
+.navbar-brand {
+  margin: .5em;
+}
 
 .infoblurbtext {
   padding: 20px;
