@@ -1,0 +1,105 @@
+/* Typography */
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  color: #111; }
+
+a:hover, a:active, a:focus {
+  color: #f5f219; }
+
+/* Hamburger */
+.hamburger {
+  padding: 0; }
+
+.hamburger-box,
+.hamburger-inner,
+.hamburger-inner::after,
+.hamburger-inner::before {
+  width: 25px; }
+
+.light-theme .hamburger-inner, .light-theme .hamburger-inner::after, .light-theme .hamburger-inner::before {
+  background-color: #fff; }
+
+.hamburger-box {
+  height: 17px; }
+
+.hamburger--slider .hamburger-inner {
+  top: 0; }
+
+.hamburger--slider .hamburger-inner:before {
+  top: 9px; }
+
+.hamburger--slider .hamburger-inner:after {
+  top: 17px; }
+
+.hamburger--slider.is-active .hamburger-inner:after {
+  transform: translate3d(0, -17px, 0) rotate(-90deg); }
+
+/* Main navigation */
+.light-theme .nav-link {
+  color: #fff; }
+
+.light-theme:hover {
+  color: #f5f219; }
+
+.light-theme li.active .nav-link {
+  color: #f5f219; }
+
+.dark-theme .nav-link {
+  color: #777; }
+
+.dark-theme:hover {
+  color: #f5f219; }
+
+.dark-theme li.active .nav-link {
+  color: #f5f219; }
+
+/* Background */
+.g-theme-bg-gray-light-v3 {
+  background-color: #e6e6e6 !important; }
+
+/* Border */
+.g-theme-brd-color-gray-light-v2 {
+  border-color: #ededed !important; }
+
+.g-theme-brd-color-dark-light-v1 {
+  border-color: #1a1a1a !important; }
+
+/* Carousel */
+.u-carousel-v5 .js-slide {
+  position: relative; }
+  .u-carousel-v5 .js-slide::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.7);
+    opacity: 1;
+    transition: opacity .2s ease-in; }
+  .u-carousel-v5 .js-slide.slick-active::after {
+    opacity: 0; }
+
+/* Carousel indicators */
+.u-carousel-indicators-v1 li span {
+  background-color: #dedede; }
+
+.u-carousel-indicators-v1 li.slick-active span {
+  background-color: #f5f219; }
+
+/* Pin map */
+.point,
+.point::after {
+  background-color: rgba(0, 0, 0, 0.2); }
+
+.point::before {
+  background-color: #f5f219; }
+
+/* Progress bar */
+.u-progress__pointer-v2::after {
+  border-color: #f5f219 transparent; }
