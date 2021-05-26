@@ -6,6 +6,7 @@ Encoding.default_internal = Encoding::UTF_8
 gem 'middleman', '~> 4.3'
 gem 'middleman-autoprefixer'
 gem 'middleman-livereload'
+gem 'webrick'
 
 gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 gem 'wdm', '~> 0.1', platforms: [:mswin, :mingw]
